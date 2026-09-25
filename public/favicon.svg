@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="favGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#FDE047" />
+      <stop offset="50%" stopColor="#FACC15" />
+      <stop offset="100%" stopColor="#EAB308" />
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="20" fill="#0B2545"/>
+  <rect x="3" y="3" width="94" height="94" rx="17" stroke="#FACC15" stroke-width="3"/>
+  <!-- Roof Apex -->
+  <path d="M50 16L84 43H70L50 27L30 43H16L50 16Z" fill="url(#favGold)"/>
+  <!-- Pillars -->
+  <path d="M20 48H32V80H20V48Z" fill="url(#favGold)"/>
+  <path d="M70 48H82V80H70V48Z" fill="url(#favGold)"/>
+  <!-- Solar Cells -->
+  <rect x="36" y="48" width="13" height="14" fill="#38BDF8" rx="1"/>
+  <rect x="53" y="48" width="13" height="14" fill="#38BDF8" rx="1"/>
+  <rect x="36" y="66" width="13" height="14" fill="#38BDF8" rx="1"/>
+  <rect x="53" y="66" width="13" height="14" fill="#38BDF8" rx="1"/>
+  <!-- Water sparkle droplet -->
+  <path d="M51 28C51 28 47 34 47 37C47 39.2 48.8 41 51 41C53.2 41 55 39.2 55 37C55 34 51 28 51 28Z" fill="#FFFFFF"/>
+  <circle cx="51" cy="22" r="2" fill="#FFFFFF" />
+  <!-- Foundation beam -->
+  <rect x="14" y="83" width="72" height="4.5" rx="2" fill="url(#favGold)"/>
+</svg>

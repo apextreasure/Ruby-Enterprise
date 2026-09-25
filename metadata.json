@@ -1,0 +1,6 @@
+{
+  "name": "Ruby Enterprise - Kontraktor Binaan & Servis Cuci Solar",
+  "description": "Laman rasmi Ruby Enterprise. Kontraktor pembinaan berlesen dan servis cuci panel solar untuk Perak, Kedah dan Pulau Pinang. Hubungi kami untuk sebut harga percuma.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

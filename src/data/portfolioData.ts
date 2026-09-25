@@ -1,30 +1,32 @@
 import { PortfolioItem } from '../types';
 
-// The 7 real project photos matching user images 1 through 7
-import proj1RoofFraming from '../assets/images/roof_truss_framing_1790311530930.jpg';
-import proj2Excavator from '../assets/images/site_excavator_work_1790311588979.jpg';
-import proj3RedRoofing from '../assets/images/red_metal_roofing_1790311543152.jpg';
-import proj4HallSteelTruss from '../assets/images/hall_roof_truss_1790320327942.jpg';
-import proj5CraneLifting from '../assets/images/crane_steel_structure_1790311553995.jpg';
-import proj6BrickworkPlaster from '../assets/images/brickwork_plaster_1790311601932.jpg';
-import proj7ConcreteMixer from '../assets/images/concrete_mixer_slab_1790311567295.jpg';
+// Lossless crops of panels 02–08 in the supplied RUBY_ENTERPRISE_Portfolio image.
+// Panel 01 is a promotional poster, not a project photograph.
+// Separate paths deliberately preserve existing hero and service illustrations.
+const proj1RoofFraming = '/portfolio/ruby-source-02.webp';
+const proj2Excavator = '/portfolio/ruby-source-03.webp';
+const proj3RedRoofing = '/portfolio/ruby-source-04.webp';
+const proj4HallSteelTruss = '/portfolio/ruby-source-05.webp';
+const proj5CraneLifting = '/portfolio/ruby-source-06.webp';
+const proj6BrickworkPlaster = '/portfolio/ruby-source-07.webp';
+const proj7ConcreteMixer = '/portfolio/ruby-source-08.webp';
 
 export const PORTFOLIO_DATA: PortfolioItem[] = [
   {
     id: 'projek-1',
     title: 'Pembinaan Dinding Bata & Rangka Kekuda Bumbung Keluli',
     category: 'Rangka Bumbung & Dinding',
-    visibleWorkDesc: 'Pemasangan struktur kekuda keluli ringan (lightweight steel truss) di atas dinding bata simen rumah setingkat yang sedang dalam pembinaan.',
+    visibleWorkDesc: 'Dinding bata dengan bukaan pintu dan tingkap serta rangka kekuda bumbung keluli biru di atas bangunan yang sedang dibina.',
     image: proj1RoofFraming,
     tag: 'Kekuda Keluli & Bata',
   },
   {
     id: 'projek-2',
-    title: 'Kerja Tapak & Pengorekan Tanah Menggunakan Jengkaut',
+    title: 'Jentera Backhoe di Kawasan Pintu Masuk',
     category: 'Kerja Tapak & Tanah',
-    visibleWorkDesc: 'Pengendalian jentera jengkaut jentolak (backhoe) untuk kerja perataan tanah dan pengorekan laluan saliran berhampiran pagar masuk dan laluan bertar.',
+    visibleWorkDesc: 'Jentera backhoe berada berhampiran pintu pagar dan pondok pengawal, dengan satu komponen konkrit di atas laluan bertar.',
     image: proj2Excavator,
-    tag: 'Pengorekan & Tapak',
+    tag: 'Jentera & Kawasan Tapak',
   },
   {
     id: 'projek-3',
@@ -38,7 +40,7 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
     id: 'projek-4',
     title: 'Pemasangan Struktur Keluli Bumbung Ruang Luas',
     category: 'Kerja Besi & Struktur',
-    visibleWorkDesc: 'Pemasangan rangka kekuda keluli struktur (structural steel trusses) bertingkat tinggi dengan bantuan sistem perancah di dalam bangunan.',
+    visibleWorkDesc: 'Rangka kekuda bumbung keluli merentangi ruang dalaman bangunan, dengan perancah dan peralatan kerja di bawahnya.',
     image: proj4HallSteelTruss,
     tag: 'Struktur Keluli Dalaman',
   },
@@ -46,7 +48,7 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
     id: 'projek-5',
     title: 'Pengangkatan Kekuda Bumbung Menggunakan Kren Bergerak',
     category: 'Kerja Besi & Struktur',
-    visibleWorkDesc: 'Operasi mengangkat kekuda bumbung keluli pasang siap ke atas dinding bangunan menggunakan kren hidraulik bergerak bersama panduan keselamatan.',
+    visibleWorkDesc: 'Kren bergerak mengangkat satu rangka kekuda keluli di sebelah dinding bangunan yang sedang dalam pembinaan.',
     image: proj5CraneLifting,
     tag: 'Kren Bergerak & Kekuda',
   },
@@ -54,17 +56,17 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
     id: 'projek-6',
     title: 'Kerja Ikatan Bata & Lepaan Simen Dinding Luaran',
     category: 'Lepaan Simen & Bata',
-    visibleWorkDesc: 'Aplikasi lepaan mortar simen secara manual pada permukaan dinding bata merah dengan sokongan struktur perancah di tapak bina.',
+    visibleWorkDesc: 'Pekerja menjalankan kerja lepaan pada dinding luar bangunan; sebahagian dinding bata merah masih terdedah, dengan perancah dan pasir di tapak.',
     image: proj6BrickworkPlaster,
     tag: 'Lepaan Simen & Bata',
   },
   {
     id: 'projek-7',
-    title: 'Penuangan Konkrit Papak Lantai Tapak & BRC',
+    title: 'Persediaan Penuangan Konkrit Papak Lantai',
     category: 'Kerja Konkrit & Papak',
-    visibleWorkDesc: 'Lori pembancuh konkrit siap campur (ready-mix) menuang adunan konkrit melalui palung ke atas tapak bertetulang jejaring dawai besi (BRC) dan membran plastik.',
+    visibleWorkDesc: 'Lori pembancuh konkrit berada di tepi tapak papak lantai yang disediakan dengan jejaring tetulang keluli, lapisan plastik dan acuan tepi.',
     image: proj7ConcreteMixer,
-    tag: 'Penuangan Konkrit Ready-Mix',
+    tag: 'Persediaan Papak Konkrit',
   },
 ];
 
